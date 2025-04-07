@@ -1,0 +1,44 @@
+/* Moderní box model - nastavená šířka boxu je včetně paddingu a borderu */
+html {
+    box-sizing: border-box;
+    scroll-behavior: smooth;   /* stránka neodskakuje, ale plynule scrolluje (při navigaci pomocí id# odkazů na stránce ) */
+}
+
+*,
+*:before,
+*:after {
+    box-sizing: inherit;
+}
+
+/*
+sTo nahoře je černá magie, na to raději nešahej.
+Ale sem dolů už si můžeš psát, co budeš chtít.
+
+Tohle je mimochodem opět komentář, ale v CSS.
+Začíná a končí trochu jinak než v HTML, ale
+princip je stejný.
+------------------------------------------------
+*/
+
+h1, h2 {
+    text-align: center;
+}
+
+footer {
+    text-align: center;
+    background-color: beige;
+}
+main {
+    background-color: antiquewhite;
+    width: 80%;
+    margin: 0 auto;
+}
+
+main table {
+    /* text-align: center; */
+    border-collapse: collapse;
+}
+
+table td {
+    border: 2px solid violet;
+}
