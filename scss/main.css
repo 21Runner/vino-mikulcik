@@ -1,0 +1,76 @@
+.arizonia-regular {
+  font-family: "Arizonia", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.poiret-one-regular {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  font-family: "Poiret One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.page-container {
+  margin: 0 auto;
+  max-width: 1088px;
+}
+
+/* header,
+main,
+footer {
+    @include testBorder();
+} */
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.16);
+}
+
+main {
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+a:link,
+a:visited,
+a:hover,
+a:active {
+  text-decoration: none;
+  color: black;
+}
+
+.menu li {
+  display: inline;
+}
+
+.menu a:hover {
+  border-bottom: 1px solid black;
+}
+
+.logo {
+  font-size: 4em;
+}
+
+.logo a {
+  display: flex;
+  flex-flow: column nowrap;
+  align-items: flex-end;
+  text-shadow: -1px -1px 10px #C23D43;
+}
+
+.logo__small {
+  font-size: 0.4em;
+}
+
+h2 {
+  font-size: 1.5em;
+}/*# sourceMappingURL=main.css.map */
