@@ -75,7 +75,7 @@ a:active {
     display: flex;
     flex-flow: column nowrap;
     align-items: flex-end;
-    text-shadow: -1px -1px 10px $color-primary;
+    /* text-shadow: -1px -1px 10px $color-primary; */
 }
 
 .logo__small {
@@ -84,4 +84,21 @@ a:active {
 
 h2 {
     font-size: 1.5em;
+}
+
+footer {
+    text-align: right;
+}
+
+@media (max-width: 350px) {
+    header {
+        flex-direction: column;
+    }
+    main {
+        height: auto;
+        min-height: 30vh;
+    }
+    .menu li {
+        display: inline-block;
+    }
 }
